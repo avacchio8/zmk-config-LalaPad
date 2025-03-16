@@ -180,12 +180,12 @@
 
         toJp {
             bindings = <&kp LANG1>;
-            key-positions = <32 33>;
+            key-positions = <32 31>;
         };
 
         toEng {
             bindings = <&kp LANG2>;
-            key-positions = <27 26>;
+            key-positions = <27 28>;
         };
 
         Esc {
@@ -238,7 +238,7 @@
 &kp ESC    &kp Q         &kp W            &lt 5 E          &kp R          &kp T                  &kp Y                             &kp U          &kp I             &kp O         &kp P              &kp BACKSPACE
 &mkp LCLK  &kp A         &mt2 LCTRL S     &mt2 LALT D      &mt2 LSHIFT F  &kp G                  &kp H                             &mt2 RSHIFT J  &mt2 RIGHT_ALT K  &mt2 RCTRL L  &lt 3 SEMICOLON    &mkp LCLK
 &kp LCTRL  &mt2 LCTRL Z  &mt2 LEFT_GUI X  &kp C            &kp V          &kp B                  &kp N                             &kp M          &kp COMMA         &kp PERIOD    &mt2 RSHIFT SLASH  &kp RSHIFT
-&mkp MB3   &mkp MB2      &mkp MB1         &lt 1 SPACE      &lt 6 TAB      &mt2 SQT LEFT_BRACKET  &mt2 DOUBLE_QUOTES RIGHT_BRACKET  &lt 6 ENTER    &lt 2 BACKSPACE   &kp LEFT      &kp DOWN           &kp RIGHT
+&mkp MB3   &kp LWIN      &mkp MB2         &lt 1 SPACE      &lt 6 TAB      &mt2 SQT LEFT_BRACKET  &mt2 DOUBLE_QUOTES RIGHT_BRACKET  &lt 6 ENTER    &lt 2 BACKSPACE   &kp LEFT      &kp DOWN           &kp RIGHT
                          &allow_end       &allow_pagedown  &allow_home    &allow_pageup          &allow_pageup                     &allow_home    &allow_pagedown   &allow_end
             >;
         };
