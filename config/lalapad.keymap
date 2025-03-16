@@ -307,7 +307,7 @@
             bindings = <
 &trans  &kp ESCAPE           &kp LG(LS(C))  &kp LG(V)     &kp LG(LC(T))      &kp LG(LS(T))      &kp TAB  &kp LA(PRINTSCREEN)  &kp LC(C)      &kp LC(V)     &trans     &trans
 &trans  &kp LG(LS(S))        &kp LCTRL      &kp LEFT_ALT  &kp LSHIFT         &trans             &trans   &kp RSHIFT           &kp RIGHT_ALT  &kp RCTRL     &kp GRAVE  &trans
-&trans  &kp LA(PRINTSCREEN)  &trans         &trans        &kp LG(LS(RIGHT))  &kp LC(LS(LG(B)))  &trans   &kp LS(LG(RIGHT))    &trans         &kp LEFT_GUI  &kp INS    &trans
+&trans  &kp LA(PRINTSCREEN)  &trans         &trans        &kp LS(LG(RIGHT))  &kp LC(LS(LG(B)))  &trans   &kp LS(LG(RIGHT))    &trans         &kp LEFT_GUI  &kp INS    &trans
 &trans  &trans               &trans         &trans        &trans             &trans             &trans   &trans               &trans         &trans        &trans     &trans
                              &trans         &trans        &trans             &trans             &trans   &trans               &trans         &trans
             >;
