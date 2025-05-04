@@ -247,11 +247,11 @@
             sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
-&kp ESC    &kp Q         &kp W            &lt 5 E          &kp R          &kp T                  &kp Y                             &kp U          &lt 5 I           &kp O         &kp P              &kp BACKSPACE
-&mkp LCLK  &kp A         &mt2 LCTRL S     &mt2 LALT D      &mt2 LSHIFT F  &kp G                  &kp H                             &mt2 RSHIFT J  &mt2 RIGHT_ALT K  &mt2 RCTRL L  &lt 3 SEMICOLON    &mkp LCLK
-&kp LCTRL  &mt2 LCTRL Z  &mt2 LEFT_GUI X  &kp C            &kp V          &kp B                  &kp N                             &kp M          &kp COMMA         &kp PERIOD    &mt2 RSHIFT SLASH  &kp RSHIFT
-&mkp MB3   &kp LWIN      &mkp MB2         &lt 1 SPACE      &lt 5 TAB      &mt2 SQT LEFT_BRACKET  &mt2 DOUBLE_QUOTES RIGHT_BRACKET  &lt 5 ENTER    &lt 2 BACKSPACE   &kp LEFT      &kp DOWN           &lt 7 RIGHT
-                         &allow_end       &allow_pagedown  &allow_home    &allow_pageup          &allow_pageup                     &allow_home    &allow_pagedown   &allow_end
+&kp ESC     &kp Q         &kp W            &lt 5 E      &kp R          &kp T                  &kp Y                             &kp U          &lt 5 I           &kp O         &kp P              &kp BACKSPACE
+&mkp LCLK   &kp A         &mt2 LCTRL S     &mt2 LALT D  &mt2 LSHIFT F  &kp G                  &kp H                             &mt2 RSHIFT J  &mt2 RIGHT_ALT K  &mt2 RCTRL L  &lt 3 SEMICOLON    &mkp LCLK
+&kp LSHIFT  &mt2 LCTRL Z  &mt2 LEFT_GUI X  &kp C        &kp V          &kp B                  &kp N                             &kp M          &kp COMMA         &kp PERIOD    &mt2 RSHIFT SLASH  &kp RSHIFT
+&kp LCTRL   &kp LEFT_ALT  &kp LWIN         &lt 1 SPACE  &lt 5 TAB      &mt2 SQT LEFT_BRACKET  &mt2 DOUBLE_QUOTES RIGHT_BRACKET  &lt 5 ENTER    &lt 2 BACKSPACE   &kp LEFT      &kp DOWN           &lt 7 RIGHT
+                          &mkp MB1         &mkp MB4     &mkp MB2       &mkp MB3               &allow_pageup                     &allow_home    &allow_pagedown   &allow_end
             >;
         };
 
